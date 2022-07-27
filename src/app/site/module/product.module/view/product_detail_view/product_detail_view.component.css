@@ -1,0 +1,188 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.product_detail_view-base{
+    width: 100%;
+}
+
+.product_detail_view-container{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.product_detail_view-container-fixedbanner{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(138,43,226,0.7);
+    display: flex;
+    justify-content: center;
+}
+
+.product_detail_view-container-fixedbanner-leftblock{
+    width: 100%;
+    background-color: rgba(138,43,226,1);
+    padding: 50px;
+}
+
+.product_detail_view-container-fixedbanner-leftblock-top{
+    font-family: Roboto-Light;
+    font-size: 25px;
+    color: rgb(255,255,255);
+}
+
+.product_detail_view-container-fixedbanner-leftblock-title{
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+
+.product_detail_view-container-fixedbanner-leftblock-detail{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: rgb(255,255,255);
+}
+
+.product_detail_view-container-fixedbanner-rightblock{
+    width: 100%;
+}
+
+/*...detail...*/
+
+.product_detail_view-detailcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+/*...left...*/
+
+.product_detail_view-detailcontainer-comparatorblock{
+    width: 65%;
+}
+
+.product_detail_view-detailcontainer-comparatorblock-title{
+    font-family: OS-Bold;
+    font-size: 16px;
+    color: rgb(0,0,0);
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column{
+    width: 100%;
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-rowtitle{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row{
+    width: 100%;
+    border-bottom: solid 1px rgba(0,0,0,0.2);
+    min-height: 60px;
+    height: auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-rowfooter{
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row-leftitem{
+    width: 250px;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row-centeritem{
+    width: 50%;
+    text-align: center;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row-centeritem-yesicon{
+    color: rgb(0,255,0);
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row-centeritem-noicon{
+    color: rgb(255,0,0);
+}
+
+.product_detail_view-detailcontainer-comparatorblock-column-row-rightitem{
+    width: 50%;
+    text-align: center;
+    font-family: Roboto-Light;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+/*...right...*/
+
+.product_detail_view-detailcontainer-sponsorblock{
+    width: 35%;
+}
+
+.product_detail_view-detailcontainer-sponsorblock-titleblock{
+    width: 100%;
+}
+
+.product_detail_view-detailcontainer-sponsorblock-titleblock-brand{
+    font-family: Roboto-Light;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    margin-right: 5px;
+}
+
+.product_detail_view-detailcontainer-sponsorblock-titleblock-model{
+    font-family: Roboto-Light;
+    font-size: 11px;
+    color: rgb(0,0,0);
+}
+
+.product_detail_view-detailcontainer-sponsorblock-titleblock-detail{
+    font-family: Roboto-Light;
+    font-size: 12px;
+    color: rgb(0,0,0);
+    display: block;
+}
+
+.product_detail_view-detailcontainer-sponsorblock-imgblock{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(232,233,238);
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

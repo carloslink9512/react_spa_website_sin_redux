@@ -1,0 +1,89 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.product_card_view-base{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.product_card_view-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product_card_view-container-box{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-bottom: 25px;
+}
+
+.product_card_view-container-box-categoryblock{
+    width: 100%;
+}
+
+.product_card_view-container-box-categoryblock-title{
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+.product_card_view-container-box-titleblock{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product_card_view-container-box-titleblock-title{
+    font-family: OS-Bold;
+    font-size: 18px;
+    color: rgb(0,0,0);
+}
+
+.product_card_view-container-box-imgblock{
+    width: 100%;
+    text-align: center;
+}
+
+.product_card_view-container-box-imgblock-img{
+    font-size: 70px;
+    color: rgb(154,163,185);
+}
+
+.product_card_view-container-box-detailblock{
+    width: 100%;
+    padding: 20px;
+}
+
+.product_card_view-container-box-detailblock-text{
+    font-family: Roboto-Light;
+    font-size: 14px;
+    color: rgb(0,0,0);
+    text-align: center;
+}
+
+.product_card_view-container-box-footerline{
+    width: 35%;
+    margin: auto;
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    .product_card_view-container-box{
+        width: 25%;
+    }
+}
+
+@media (min-width: 990px){
+    
+}

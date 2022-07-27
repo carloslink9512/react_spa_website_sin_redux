@@ -1,0 +1,38 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.notfound_view-base{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 350px;
+}
+
+.notfound_view-item-up{
+    font-family: OS-Bold;
+    font-size: 30px;
+    color: rgb(0,0,0);
+}
+
+.notfound_view-item-down{
+    font-family: Roboto-Light;
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

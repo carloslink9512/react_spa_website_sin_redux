@@ -1,0 +1,71 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.user_login_info_view-base{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.user_login_info_view-container{
+    width: 100%;
+    padding: 15px;
+}
+
+.user_login_info_view-container-detailblock{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.user_login_info_view-container-detailblock-title{
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    color: rgb(0,0,0);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.user_login_info_view-container-detailblock-item{
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: rgb(0,0,0);
+    display: block;
+    margin-bottom: 0px;
+}
+
+.user_login_info_view-container-detailblock-item-icon{
+    color: rgb(138,43,226);
+    color: rgb(0,0,0);
+    font-size: 4px;
+    margin-right: 5px;
+}
+
+.user_login_info_view-container-socialblock{
+    width: 100%;
+}
+
+.user_login_info_view-container-socialblock-item{
+    margin-right: 20px;
+}
+
+.user_login_info_view-container-socialblock-item-icon{
+    font-size: 25px;
+    color: rgb(138,43,226);
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

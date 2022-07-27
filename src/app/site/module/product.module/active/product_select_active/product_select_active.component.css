@@ -1,0 +1,117 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.product_select_active-base{
+    width: 100%;
+    margin-bottom: 250px;
+    margin-top: 25px;
+}
+
+.product_select_active-container{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+/*...left...*/
+
+.product_select_active-container-leftblock{
+    width: 250px;
+}
+
+.product_select_active-container-leftblock-item{
+    font-family: Roboto-Light;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    cursor: pointer;
+}
+
+.product_select_active-container-leftblock-item-btn{
+    font-family: Roboto-Light;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.product_select_active-container-leftblock-item-btn:hover{
+    background-color: transparent;
+    color: rgba(0,0,0,0.7);
+}
+
+/*...right...*/
+
+.product_select_active-container-rightblock{
+    width: 100%;
+    background-color: rgba(138,43,226,0.7);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.product_select_active-container-rightblock-left{
+    width: 100%;
+    background-color: rgb(138,43,226);
+    text-align: left;
+    padding: 50px;
+}
+
+.product_select_active-container-rightblock-left-top{
+    font-family: Roboto-Light;
+    font-size: 25px;
+    color: rgb(255,255,255);
+    margin-bottom: 15px;
+}
+
+.product_select_active-container-rightblock-left-title{
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+
+.product_select_active-container-rightblock-left-detail{
+    font-family: Roboto-Light;
+    font-size: 15px;
+    color: rgb(255,255,255);
+}
+
+.product_select_active-container-rightblock-left-btn{
+    background-color: rgb(255,255,255);
+    border: solid 1px rgb(255,255,255);
+    color: rgb(138,43,226);
+    font-family: OS-Bold;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.product_select_active-container-rightblock-left-btn:hover{
+    background-color: rgba(255,255,255,0.9);
+}
+
+.product_select_active-container-rightblock-right{
+    width: 100%;
+}
+
+.product_select_active-container-rightblock-left-btn-icon{
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

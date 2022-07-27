@@ -1,0 +1,43 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.contact_view-base{
+    width: 100%;
+}
+
+.contact_view-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact_view-container-leftblock{
+    width: 100%;
+}
+
+.contact_view-container-rightblock{
+    width: 100%;
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+
+    .contact_view-container{
+        flex-wrap: nowrap;
+    }
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

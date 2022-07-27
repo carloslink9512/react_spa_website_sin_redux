@@ -1,0 +1,59 @@
+@import "../../../shared.module/external/Open_Sans/font_open_sans.css";
+@import "../../../shared.module/external/roboto/fuente_Roboto.css";
+
+.tc_view-base{
+    width: 100%;
+}
+
+.tc_view-container{
+    width: 100%;
+}
+
+.tc_view-titleblock{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.tc_view-titleblock-text{
+    font-family: Roboto-Light;
+    font-size: 18px;
+    color: rgb(0,0,0);
+}
+
+.tc_view-container-subtitleblock{
+    width: 100%;
+}
+
+.tc_view-container-subtitleblock-text{
+    font-family: OS-Bold;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+.tc_view-container-bodyblock{
+    width: 100%;
+}
+
+.tc_view-container-bodyblock-row{
+    font-family: Roboto-Light;
+    font-size: 12px;
+    color: rgb(0,0,0);
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+
+}
+
+@media (min-width: 600px){
+    
+}
+
+@media (min-width: 750px){
+    
+}
+
+@media (min-width: 990px){
+    
+}

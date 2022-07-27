@@ -1,0 +1,35 @@
+@import "../site/module/shared.module/external/Open_Sans/font_open_sans.css";
+@import "../site/module/shared.module/external/roboto/fuente_Roboto.css";
+
+.app_manager-nav{
+    background-color: rgb(255,255,255);
+}
+
+.app_manager-nav-logo{
+    text-decoration: none;
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: rgb(0,0,0);
+    padding: 10px 0;
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(138,43,226);
+}
+
+.app_manager-nav-logo:hover{
+    color: rgba(0,0,0,0.7);
+}
+
+.app_manager-link{
+    text-decoration: none;
+    padding: 10px;
+    font-family: Roboto-Light;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+.app_manager-link:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+

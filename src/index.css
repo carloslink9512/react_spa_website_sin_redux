@@ -1,0 +1,40 @@
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.my-container{
+  padding: 0 10px;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+
+/*...responsive...*/
+
+@media (min-width: 450px){
+  .my-container{
+    padding: 0 12px;
+  }    
+}
+
+@media (min-width: 600px){
+  .my-container{
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 750px){
+  .my-container{
+    padding: 0 18px;
+  }
+}
+
+@media (min-width: 990px){
+  .my-container{
+    padding: 0 60px;
+  }   
+}
